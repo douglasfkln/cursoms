@@ -13,7 +13,6 @@ import com.cursomc2.services.exceptions.ObjectNotFoundException;
 @Service
 public class CategoriaService {
 
-	// Automaticamente instancia o repo
 	@Autowired
 	private CategoriaRepository repo;
 	
