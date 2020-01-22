@@ -2,7 +2,6 @@ package com.cursomc2;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
-import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -68,7 +67,7 @@ public class Cursomc2Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-
+/*
 		Categoria cat1 = new Categoria(null, "Informática");
 		Categoria cat2 = new Categoria(null, "Escritório");
 		Categoria cat3 = new Categoria(null, "Cama mesa e banho");
@@ -143,5 +142,6 @@ public class Cursomc2Application implements CommandLineRunner {
 		p3.getItens().addAll(Arrays.asList(ip2));
 		
 		itemPedidoRepository.saveAll(Arrays.asList(ip1, ip2, ip3));
+		*/
 	}
 }
