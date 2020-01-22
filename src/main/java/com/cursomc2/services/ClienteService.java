@@ -16,7 +16,6 @@ import com.cursomc2.domain.Cliente;
 import com.cursomc2.repositories.ClienteRepository;
 import com.cursomc2.services.exceptions.ObjectNotFoundException;
 
-
 @Service
 public class ClienteService {
 

@@ -1,7 +1,5 @@
 package com.cursomc2.resources;
 
-import com.cursomc2.domain.Categoria;
-import com.cursomc2.dto.CategoriaDTO;
 import com.cursomc2.dto.ClienteDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
