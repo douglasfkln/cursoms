@@ -5,7 +5,11 @@ import org.springframework.stereotype.Repository;
 
 import com.cursomc2.domain.Cliente;
 
+import java.util.List;
+
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
+
+    List<Cliente> findByEmail(String email);
 
 }
